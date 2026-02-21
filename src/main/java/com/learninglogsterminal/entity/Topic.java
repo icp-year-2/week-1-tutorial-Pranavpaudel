@@ -129,7 +129,7 @@ public class Topic {
     // Hint: return "[" + id + "] " + name + " (Created: " + createdAt + ")";
     @Override
     public String toString(){
-        return  id +" Java Basics Created: "+ createdAt;
+        return  id +" "+name+" Created: "+ createdAt;
     }
     // ============================================================
 
